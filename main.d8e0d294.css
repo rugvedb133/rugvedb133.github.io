@@ -4823,6 +4823,16 @@ body.white {
 	margin-bottom: 0
 }
 
+.education-experience {
+	margin-bottom: 40px;
+	/*text-align: center;*/
+}
+
+.education-experience:last-of-type {
+	margin-bottom: 0;
+	/*text-align: center*/
+}
+
 .footer-container {
 	padding: 20px 0 30px
 }
@@ -5018,6 +5028,12 @@ body.white {
 	height: 50px;
 	line-height: 50px;
 	font-size: 24px
+}
+.fa-icon.fa-icon-3x {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 32px
 }
 
 .social-buttons .social-round-icon {
