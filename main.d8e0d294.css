@@ -4988,6 +4988,21 @@ body.white {
 	font-size: 1em
 }
 
+.project-name:hover {
+	/*background-color: #009fff;
+	color: #fff;
+	border-color: #009fff*/
+	color: #009fff;
+	text-decoration: none
+}
+.project-name i:hover {
+	/*background-color: #009fff;
+	color: #fff;
+	border-color: #009fff*/
+	color: #009fff;
+	text-decoration: none
+}
+
 .social-round-icon {
 	border: 1px solid #838383;
 	border-radius: 50px;
@@ -5034,6 +5049,15 @@ body.white {
 	height: 50px;
 	line-height: 50px;
 	font-size: 32px
+}
+
+.fa-icon-3x:hover{
+	/*width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 32px*/
+	/*background-color: #009fff;*/
+	color: #ff6975;
 }
 
 .social-buttons .social-round-icon {
@@ -5141,6 +5165,28 @@ label {
 .list-icons li {
 	float: left;
 	margin-right: 5px
+}
+
+
+.project-name {
+	text-align: center;
+	font-weight: bold;
+}
+
+.project-name:hover{
+
+}
+
+.project-image {
+	border: 1px solid gray;
+	border-radius: 10px;
+	/*background: url("assets/images/placeholder.png");*/
+	background-repeat: no-repeat;
+	padding: 5px;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	background-size: 300px 300px
 }
 
 /*# sourceMappingURL=main.bc58148c.map*/
