@@ -53,21 +53,21 @@
 				
 				<div class="container">
 					<!------------- Top Photo and Headline ---------------->
-					<div class="row">
-						<div class="col-xs-12">
+					<!-- <div class="row">
+						<div class="col-xs-12"> -->
 							<div class="card">
 								<div class="card-block">
 									<h2>About me</h2>
-									<div class="row">
-										<div class="col-md-3">
-											<p><img src="./assets/images/bitmoji.jpeg" class="img-responsive" alt="" width="200" height="200"></p>
+									<div class="education-experience row">
+										<div class="col-md-4">
+											<p><img src="./assets/images/bitmoji.jpeg" class="img-responsive" alt="" width="250" height="250"></p>
 										</div>
-										<div class="col-md-9">
+										<div class="col-md-8">
 											<p style="text-align: justify;">
-												I'm pursuing Masters of Science in Computer Engineering at the University of California, Riverside.<br>
-												I am actively looking for Full-Time Opportunities as I am graduating in June 2023.<br>
-												I am passionate about Big Data, Machine Learning, Data Mining, and Embedded Systems.<br>
-												I have hands-on experience with Python, Java, C++, Javascript, Internet of Things.<br>
+												I completed <i>Masters of Science in Computer Engineering</i> at the <i>University of California, Riverside</i> in June 2023. <br class="hidden-xs">
+												I am actively looking for Full-Time Opportunities. <br class="hidden-xs">
+												I am passionate about Big Data, Machine Learning, Data Mining, and Embedded Systems. <br class="hidden-xs"> 
+												I have hands-on experience with Python, Java, C++, Javascript, Internet of Things. <br class="hidden-xs"> 
 												I have used tools such as Google Colab, and Apache Spark in my career.
 											</p>
 										</div>
@@ -90,7 +90,7 @@
 											<p>
 												<br class="hidden-xs hidden-sm">
 
-												<b>University of California, Riverside<b><br>
+												<b>University of California, Riverside</b><br>
 												Bourns College of Engineering<!-- <br> -->
 												<!-- <small>900 University Ave, Riverside, CA, USA 92507</small> -->
 											</p>
@@ -144,13 +144,16 @@
 								<div class="card-block">
 									<h2>Experience</h2>
 									<div class="work-experience row">
-										<small class="date">January 2023 - April 2023</small>
-										<h3 class="h5 date-title">Graduate Student Reader <br> Department of Computer Science and Engineering - Univerity of California, Riverside</h3>
-										
-										<p style="margin-bottom: 0px;">
-											Worked as a grader for the course <i>CS167 - Intoduction to Big Data Management</i>.<br>
-											Graded student assignments, resolved student queries, proctored examinations, and maintained gradebooks. 
-										</p>
+										<div class="col-xs-12">
+											<small class="date">January 2023 - April 2023</small>
+											<h3 class="h5 date-title">Graduate Student Reader <br> Department of Computer Science and Engineering - Univerity of California, Riverside</h3>
+											
+											<p style="margin-bottom: 0px; text-align: justify;">
+												Worked as a grader for <i>CS167 - Introduction to Big Data Management</i>, assessing and grading student submissions.<br class="hidden-xs">
+												Collaborated with instructors to develop assignments aligned with course objectives and requirements. <br class="hidden-xs">
+												Provided guidance and resolved student queries to enhance their understanding of course concepts, resulting in an overall 10% increase in student mean grades towards the end of the quarter, despite the significant rise in assignment difficulty.
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -159,33 +162,47 @@
 							<!------------- Projects ---------------->
 							<div class="card">
 								<div class="card-block">
-									<h2>Projects</h2>
+									<div class="row" style="padding-left: 15px">
+										<h2><a href="projects.html">Projects</a></h2>
+									</div>
 									<div class="row">
-										<div class="col-md-4 col-sm-12">
-											<p class="project-image" style="background-image: url(assets/images/Project_BoardGame.jfif);"></p>
-											<h4 class="project-name">Board Game Robot using Arduino</h4>
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<a href="projects.html" target="_blank" title="Board Game Robot using Arduino"> 
+												<p class="project-image" style="background-image: url(assets/images/Project_BoardGame.jfif);"></p>
+												<h4 class="project-name">Board Game Robot using Arduino</h4>
+											</a>
 										</div>
-										<div class="col-md-4 col-sm-12">
-											<p class="project-image" style="background-image: url(assets/images/Project_CrimeBigData.jfif);"></p>
-											<h4 class="project-name">Crime Analysis & Prediction using Big Data</h4>
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<a href="projects.html#CrimeAnalysis" target="_blank" title="Crime Analysis & Prediction using Big Data"> 
+												<p class="project-image" style="background-image: url(assets/images/Project_CrimeBigData.jfif);"></p>
+												<h4 class="project-name">Crime Analysis & Prediction using Big Data</h4>
+											</a>
 										</div>
-										<div class="col-md-4 col-sm-12">
-											<p class="project-image" style="background-image: url(assets/images/Project_SearchEngine.jfif);"></p>
-											<h4 class="project-name">Search Engine using Lucene and Hadoop</h4>
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<a href="projects.html#Search Engine" target="_blank" title="Search Engine using Lucene and Hadoop"> 
+												<p class="project-image" style="background-image: url(assets/images/Project_SearchEngine.jfif);"></p>
+												<h4 class="project-name">Search Engine using Lucene and Hadoop</h4>
+											</a>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-4 col-sm-12">
-											<p class="project-image" style="background-image: url(assets/images/Project_FakeReview.jfif);"></p>
-											<h4 class="project-name">Fake Review Detection using ML & NLP</h4>
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<a href="projects.html#FakeReview" target="_blank" title="Fake Review Detection using ML & NLP"> 
+												<p class="project-image" style="background-image: url(assets/images/Project_FakeReview.jfif);"></p>
+												<h4 class="project-name">Fake Review Detection using ML & NLP</h4>
+											</a>
 										</div>
-										<div class="col-md-4 col-sm-12">
-											<p class="project-image" style="background-image: url(assets/images/Project_DiabeticRetinopathy.jfif);"></p>
-											<h4 class="project-name">Vision-based System for Early Diabetic Retinopathy Detection</h4>
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<a href="projects.html#DiabeticRetinopathy" target="_blank" title="Vision-based System for Early Diabetic Retinopathy Detection"> 
+												<p class="project-image" style="background-image: url(assets/images/Project_DiabeticRetinopathy.jfif);"></p>
+												<h4 class="project-name">Vision-based System for Early Diabetic Retinopathy Detection</h4>
+											</a>
 										</div>
-										<div class="col-md-4 col-sm-12">
-											<p class="project-image" style="background-image: url(assets/images/MoreProj.png);"></p>
-											<h4 class="project-name">More Projects</h4>
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<a href="projects.html" target="_blank" title="More Projects"> 
+												<p class="project-image" style="background-image: url(assets/images/MoreProj.png);"></p>
+												<h4 class="project-name">More Projects</h4>
+											</a>
 										</div>
 									</div>
 									<!-- <div class="row">
@@ -276,26 +293,43 @@
 							<div class="card">
 								<div class="card-block">
 									<h2>Campus Involvement</h2>
-									<div class="work-experience">
+									<div class="work-experience" style="text-align: justify;">
 										<small class="date">October 2019 - September 2021</small>
 										<h3 class="h5 date-title">Joint Secretary and Treasurer - Student Chapter, S.P.I.T.<br>
 										Fire and Security Association of India (F.S.A.I)</h3>
 										
-										<p style="margin-bottom: 0px;">Was the Joint Secretary and Treasurer of the S.P.I.T. Student Chapter of F.S.A.I.
-										<br>Organised multiple events like:</p>
-										<ol>
-											<li> Safety and Security Audit of Ganesh Mandals over Mumbai: Data about safety measures and security measures of Ganesh Mandals all over Mumbai was collected by over 150 volunteers and submitted to Disaster Management Cell of B.M.C. to increase response time and quality.</li>
-											<li> Student Evaluation of SE students: Organised talks by Industry leaders like Dr. Abbasaheb Kale, MARSH. A competition was organised which consisted of activities like Poster Making, Project Competition, Short Film making, Skit Presentation and Case Study Presentation.</li>
-										</ol>
+										<p style="margin-bottom: 0px;">Held the positions of Joint Secretary and Treasurer in the S.P.I.T. Student Chapter of F.S.A.I. </p>
+										<!-- <p style="margin-bottom: 0px;"> -->
+											<ol style="padding-left: 0px; list-style: inside decimal; margin-bottom: 0px">
+											Successfully organized multiple impactful events, including:
+												<li>Safety and Security Audit of Ganesh Mandals over Mumbai:
+													<ul style="padding-left: 20px;">
+														<li>Led a team of 150 volunteers to collect data on safety and security measures implemented in Ganesh Mandals across Mumbai.</li>
+														<li>Submitted the collected data to the Disaster Management Cell of the Brihanmumbai Municipal Corporation (B.M.C.) to enhance response time and improve safety standards.</li>
+													</ul>
+												</li>
+												<li>Student Evaluation of SE students:
+													<ul style="padding-left: 20px;">
+														<li>Coordinated talks by industry leaders, such as Dr. Abbasaheb Kale from MARSH, to provide insights into real-world practices.</li>
+														<li>Organized a competition comprising activities like Poster Making, Project Competition, Short Film Making, Skit Presentation, and Case Study Presentation.</li>
+													</ul>
+												</li>
+											</ol>
+										<!-- </p> -->
+										<p style="margin-bottom: 0px;">Demonstrated effective event management skills, including planning, coordination, delegation and execution.</p>
+										<p>Showcased strong leadership abilities in ensuring the success and impact of these events.</p>
 									</div>
 									<div class="work-experience">
 										<small class="date">August 2019 - August 2020</small>
 										<h3 class="h5 date-title">Senior Correspondent <br>
 										SPark - College Editorial of S.P.I.T. </h3>
 										
-										<p>Worked as a Senior Correspondent at SPark, the official editorial of Sardar Patel Institute of Technology.<br>
-											Worked in the Photography and Operations team.<br>
-										Covered photography for college events and worked on the college magazine.</p>
+										<p style="margin-bottom: 0px;">Served as a Senior Correspondent at SPark, the official editorial of Sardar Patel Institute of Technology.</p>
+										<p style="margin-bottom: 0px;">Contributed to the Photography and Operations teams, undertaking diverse responsibilities.</p>
+										<p style="margin-bottom: 0px;">Provided comprehensive event coverage through photography, capturing key moments and visually documenting college events.</p>
+										<p style="margin-bottom: 0px;">Collaborated with a talented team of writers, photographers, and designers to produce high-quality content.</p>
+										<p style="margin-bottom: 0px;">Maintained strict adherence to deadlines, delivering quality work within specified timeframes.</p>
+										<p style="margin-bottom: 0px;">Gained valuable experience in journalistic practices, honing skills in writing, photography, and editorial operations.</p>
 									</div>
 								</div>
 							</div>
